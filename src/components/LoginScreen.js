@@ -1,14 +1,14 @@
 import React, { useState } from 'react'
 import { withStyles } from "@material-ui/styles"
 import SignupScreen from "./SignupScreen"
-import login from "./images/login.jpg";
-import logo from "./images/logo.png";
+import login from "../images/login.jpg";
+import logo from "../images/logo.png";
 
 const styles={
 loginScreen:{
     position:"relative",
     height:"100%",
-    background:`url("./images/login.jpg") center no-repeat`,
+    background:`url("../images/login.jpg") center no-repeat`,
     backgroundSize:"cover",
 "& .loginScreen_logo":{
     position:"fixed",
@@ -91,7 +91,7 @@ function LoginScreen(props) {
         <div className={classes.loginScreen}>
             <div className="loginScreen_background">
                 <img className="loginScreen_logo"
-                src="./images/logo.png" 
+                src="../images/logo.png" 
                 alt=""/>
                 <button className="loginScreen_button" onClick={(e) => {
                     e.preventDefault()
