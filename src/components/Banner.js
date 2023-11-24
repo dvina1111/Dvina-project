@@ -79,7 +79,7 @@ return string?.length > n ?string.substr(0,n-1) + "..." : string
     return (
         <header className={classes.banner} style={{
             backgroundSize :"cover",
-            backgroundImage:`url("./images/banner.png")`,
+            backgroundImage:`url("./images/login.jpg")`,
             backgroundPosition:"center center"
         }}>
             <div className="banner_contents">
