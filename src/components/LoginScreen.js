@@ -6,7 +6,7 @@ const styles={
 loginScreen:{
     position:"relative",
     height:"100%",
-    background:`url("http://mppmduse2pmpovwapp.azurewebsites.net/wp-content/uploads/2019/09/netflix-background-9.jpg") center no-repeat`,
+    background:`url("./images/login.jpg") center no-repeat`,
     backgroundSize:"cover",
 "& .loginScreen_logo":{
     position:"fixed",
@@ -89,7 +89,7 @@ function LoginScreen(props) {
         <div className={classes.loginScreen}>
             <div className="loginScreen_background">
                 <img className="loginScreen_logo"
-                src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png" 
+                src="./images/logo.png" 
                 alt=""/>
                 <button className="loginScreen_button" onClick={(e) => {
                     e.preventDefault()
