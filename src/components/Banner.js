@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import {withStyles} from "@material-ui/styles"
 import axios from "axios"
 import requests from "./../Request"
+import login fron "./images/login.jpg";
 
 const styles ={
 banner:{
@@ -79,7 +80,7 @@ return string?.length > n ?string.substr(0,n-1) + "..." : string
     return (
         <header className={classes.banner} style={{
             backgroundSize :"cover",
-            backgroundImage:`url("./images/login.jpg")`,
+            backgroundImage:`url("../images/login.jpg")`,
             backgroundPosition:"center center"
         }}>
             <div className="banner_contents">
