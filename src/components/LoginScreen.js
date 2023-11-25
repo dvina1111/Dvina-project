@@ -1,14 +1,14 @@
 import React, { useState } from 'react'
 import { withStyles } from "@material-ui/styles"
-import SignupScreen from "./SignupScreen"
-import login from '../images/login.jpg';
+import SignupScreen from "./SignupScreen";
+import login from "./images/login.jpg";
 import logo from '../images/logo.png';
 
 const styles={
 loginScreen:{
     position:"relative",
     height:"100%",
-    background:`url{login} center no-repeat`,
+    background:`url(${login})`, center no-repeat`,
     backgroundSize:"cover",
 "& .loginScreen_logo":{
     position:"fixed",
