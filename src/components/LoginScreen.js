@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import { withStyles } from "@material-ui/styles"
 import SignupScreen from "./SignupScreen"
-import login from './images/login.jpg';
-import logo from './images/logo.png';
+import login from '../images/login.jpg';
+import logo from '../images/logo.png';
 
 const styles={
 loginScreen:{
